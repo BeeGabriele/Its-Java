@@ -6,10 +6,10 @@
 **/
 public class GasStation{
     public static void main (String[] args){
-        if(Integer.parseInt(args[0]) <= 999){
-            if(args.length != 1){
-                System.out.print("Errore: Il programma richiede 1 argomento");
-            }else{
+        if(args.length != 1){ 
+            System.out.print("Errore: Il programma richiede 1 argomento"); 
+        }else{
+            if(Integer.parseInt(args[0]) <= 999){
                 int a = Integer.parseInt(args[0]) / 100;
                 int b = (Integer.parseInt(args[0]) - a * 100) / 10;
                 int c = (Integer.parseInt(args[0]) - a * 100 - b * 10);
@@ -21,9 +21,9 @@ public class GasStation{
                 System.out.println(" |       | ");
                 System.out.println(" |       | ");
                 System.out.println("_|_______|_");
-	    }
-        }else{
-	    System.out.println("Il numero inserito e' troppo grande");
+            }else{
+	            System.out.println("Errore: Il numero inserito e' troppo grande");
+	        }
         }
     }
 }
