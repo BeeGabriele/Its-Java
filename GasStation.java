@@ -1,7 +1,7 @@
 /**
 * Viene stampata una pompa di benzina con il prezzo che sceglie l'utente al momento dell'avvio
 *
-* @Author: Gabriele Bee		 @Version 21.01.2022
+* @Author: Gabriele Bee		 @Version: 21.01.2022
 *
 **/
 public class GasStation{
