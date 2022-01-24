@@ -13,8 +13,8 @@ public class UnicodeTest{
             for (int i = 0x0000; i<=Integer.parseInt(args[0]) - 1; i++){
                 int character = (char)Unicode + (char)i;
                 char printed = (char)character;
-                System.out.println("Char: " + Integer.toHexString(i + 0x0020) + "==> \'" + printed + "\'");
+                System.out.println("Char: " + Integer.toHexString(i + 0x0020) + " ==> \'" + printed + "\'");
             }
-	}
+	    }
     }
 }
