@@ -1,7 +1,7 @@
 /**
 * Inseriti due valori int <divisore> e <dividendo> viene stampato il risultato della frazione
 * in formato anglosassone
-*
+* 
 * @Author: Gabriele Bee		@Version: 21.02.2022
 **/
 import static java.lang.System.out;
