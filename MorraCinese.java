@@ -11,10 +11,9 @@ public class MorraCinese {
     public static void main(String[] args) {
 
         int input = 0;
-        int play = 1;
         int playerPoints = 0;
         int cpuPoints = 0;
-        while (play == 1) {
+        while (true) {
             try {
                 Scanner scan = new Scanner(System.in);
                 System.out.println("Fai la tua scelta: ");
@@ -73,19 +72,7 @@ public class MorraCinese {
                     }
                     System.out.println("PUNTEGGIO:");
                     System.out.println("Player: " + playerPoints + " - CPU: " + cpuPoints);
-                    System.out.println("Vuoi giocare ancora?");
-                    System.out.println("0. No");
-                    System.out.println("1. Si");
-                    System.out.print("> ");
-                    while (true) {
-                        input = scan.nextInt();
-                        if (input != 1 && input != 0 ) {
-                            System.out.println("Errore: input invalido. Scegliere 0 o 1.");
-                            System.out.print("> ");
-                        } else {
-                            play = input;
-                            break;
-                        }
+                    System.out.print(\n\n);
                     }
                 }
             } catch (InputMismatchException e) {
