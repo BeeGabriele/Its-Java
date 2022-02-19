@@ -72,8 +72,7 @@ public class MorraCinese {
                     }
                     System.out.println("PUNTEGGIO:");
                     System.out.println("Player: " + playerPoints + " - CPU: " + cpuPoints);
-                    System.out.print(\n\n);
-                    }
+                    System.out.print("\n\n");
                 }
             } catch (InputMismatchException e) {
                 System.out.print("Errore: input invalido.");
